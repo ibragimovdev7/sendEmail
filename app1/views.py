@@ -20,6 +20,6 @@ def index(request):
         #
         # Form: {}
         # ''', format(data['message'],data['email'])
-        send_mail(data['subject'], message, '', ['ibragimovgani0103@gmail.com'],['trigger7701@gmail.com'])
+        send_mail(data['subject'], message, '', ['send_email@gmail.com'],['send_email01@gmail.com'])
 
     return render(request,'index.html',{})
